@@ -1,0 +1,26 @@
+{
+  "id": "voice-input",
+  "displayName": "Voice Input",
+  "description": "Turn chat voice messages into text on your own BB server, with local or cloud engines and your terms spelled right. Whisper (MLX) and GigaAM v3 run locally, so audio stays on your machine; Groq, OpenAI and Google transcribe in the cloud with your API key. A term vocabulary repairs garbled product and tool names, and an optional AI pass fixes the ones the rules miss. Recordings are saved to disk first, so a failed transcription never loses what you said. Local engines need Python 3 and ffmpeg; Whisper needs macOS on Apple silicon.",
+  "icon": "Mic",
+  "screenshots": [
+    "./screenshots/voice-input/engines.png",
+    "./screenshots/voice-input/vocabulary.png",
+    "./screenshots/voice-input/cloud.png",
+    "./screenshots/voice-input/data.png"
+  ],
+  "overview": "./overview/voice-input.md",
+  "tags": ["voice", "speech-to-text", "transcription", "dictation", "whisper", "gigaam", "groq", "vocabulary", "offline"],
+  "author": {
+    "name": "VKirill",
+    "github": "VKirill",
+    "url": "https://github.com/VKirill"
+  },
+  "category": "agents-and-providers",
+  "source": {
+    "git": {
+      "url": "https://github.com/VKirill/bb-plugin-voice-input.git",
+      "range": "^0.1.0"
+    }
+  }
+}
