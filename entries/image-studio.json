@@ -23,7 +23,7 @@
   "source": {
     "git": {
       "url": "https://github.com/VKirill/bb-plugin-image-studio.git",
-      "range": "^0.1.13"
+      "range": "^0.1.19"
     }
   },
   "screenshots": [
